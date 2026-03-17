@@ -1,0 +1,21 @@
+package com.mbtech.task_service.config;
+
+import io.swagger.v3.oas.models.OpenAPI;
+import io.swagger.v3.oas.models.info.Contact;
+import io.swagger.v3.oas.models.info.Info;
+import org.springframework.context.annotation.Bean;
+
+public class SwaggerConfig {
+
+    @Bean
+    public OpenAPI taskServiceOpenAPI() {
+        return new OpenAPI()
+                .info(new Info()
+                        .title("Task Service API")
+                        .description("REST API for Todo Task Management")
+                        .version("1.0.0")
+                        .contact(new Contact()
+                                .name("mbtech")
+                                .email("hello@email.com")));
+    }
+}
