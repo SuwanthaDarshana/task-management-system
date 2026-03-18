@@ -1,0 +1,25 @@
+﻿
+ RUN  v4.1.0 E:/Projects/MB tech To Do task/task-management-system/frontend
+
+ ├ù src/components/TaskList/TaskList.test.tsx > TaskList > should render loading skeletons when loading is true 7ms
+   ΓåÆ document is not defined
+ ├ù src/components/TaskList/TaskList.test.tsx > TaskList > should not render tasks when loading is true 1ms
+   ΓåÆ document is not defined
+ ├ù src/components/TaskList/TaskList.test.tsx > TaskList > should render empty state when tasks list is empty 1ms
+   ΓåÆ document is not defined
+ ├ù src/components/TaskList/TaskList.test.tsx > TaskList > should render empty state message when no tasks 1ms
+   ΓåÆ document is not defined
+ ├ù src/components/TaskList/TaskList.test.tsx > TaskList > should render all tasks 1ms
+   ΓåÆ document is not defined
+ ├ù src/components/TaskList/TaskList.test.tsx > TaskList > should render correct number of task cards 1ms
+   ΓåÆ document is not defined
+ ├ù src/components/TaskList/TaskList.test.tsx > TaskList > should call onComplete when Done is clicked 0ms
+   ΓåÆ document is not defined
+ ├ù src/components/TaskList/TaskList.test.tsx > TaskList > should render single task correctly 0ms
+   ΓåÆ document is not defined
+
+ Test Files  1 failed (1)
+      Tests  8 failed (8)
+   Start at  16:33:51
+   Duration  549ms (transform 90ms, setup 0ms, import 329ms, tests 13ms, environment 0ms)
+
