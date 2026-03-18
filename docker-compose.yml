@@ -4,14 +4,14 @@ services:
     image: mysql:8.0
     container_name: task_db
     environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: task_db
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
     ports:
       - "3307:3306"
     volumes:
       - mysql_data:/var/lib/mysql
     healthcheck:
-      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-proot"]
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p${MYSQL_ROOT_PASSWORD}"]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -25,9 +25,9 @@ services:
       dockerfile: Dockerfile
     container_name: task_backend
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/task_db?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
-      DB_USERNAME: root
-      DB_PASSWORD: root
+      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/${MYSQL_DATABASE}?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
+      DB_USERNAME: ${DB_USERNAME}
+      DB_PASSWORD: ${DB_PASSWORD}
     ports:
       - "8080:8080"
     depends_on:
