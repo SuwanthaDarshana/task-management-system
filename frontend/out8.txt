@@ -1,0 +1,1426 @@
+﻿
+ RUN  v4.1.0 E:/Projects/MB tech To Do task/task-management-system/frontend
+
+ ├ù src/components/TaskCard/TaskCard.test.tsx > TaskCard > should render task title 44ms
+   ΓåÆ Invalid Chai property: toBeInTheDocument
+ ├ù src/components/TaskCard/TaskCard.test.tsx > TaskCard > should render task description 12ms
+   ΓåÆ Found multiple elements with the text: Buy books for school
+
+Here are the matching elements:
+
+Ignored nodes: comments, script, style
+[36m<p[39m
+  [33mclass[39m=[32m"text-text-muted text-xs leading-relaxed line-clamp-2"[39m
+[36m>[39m
+  [0mBuy books for school[0m
+[36m</p>[39m
+
+Ignored nodes: comments, script, style
+[36m<p[39m
+  [33mclass[39m=[32m"text-text-muted text-xs leading-relaxed line-clamp-2"[39m
+[36m>[39m
+  [0mBuy books for school[0m
+[36m</p>[39m
+
+(If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"group glass rounded-2xl p-6 flex items-center gap-5 transition-all duration-200"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"w-1 self-stretch rounded-full bg-gradient-to-b from-accent to-accent/20 flex-shrink-0"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex-1 min-w-0"[39m
+      [36m>[39m
+        [36m<h3[39m
+          [33mclass[39m=[32m"text-text-primary font-semibold text-sm leading-snug mb-1"[39m
+        [36m>[39m
+          [0mBuy books[0m
+        [36m</h3>[39m
+        [36m<p[39m
+          [33mclass[39m=[32m"text-text-muted text-xs leading-relaxed line-clamp-2"[39m
+        [36m>[39m
+          [0mBuy books for school[0m
+        [36m</p>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5 mt-3"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mclass[39m=[32m"text-text-muted"[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"10"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"10"[39m
+          [36m>[39m
+            [36m<circle[39m
+              [33mcx[39m=[32m"12"[39m
+              [33mcy[39m=[32m"12"[39m
+              [33mr[39m=[32m"10"[39m
+            [36m/>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"12 6 12 12 16 14"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"text-text-muted text-[11px] font-medium"[39m
+          [36m>[39m
+            [0mJust now[0m
+          [36m</span>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<button[39m
+        [33mclass[39m=[32m"btn-complete opacity-60 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"[39m
+        [33mtitle[39m=[32m"Mark as complete"[39m
+      [36m>[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"12"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-linejoin[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2.5"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"12"[39m
+          [36m>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"20 6 9 17 4 12"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [0mDone[0m
+        [36m</span>[39m
+      [36m</button>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"group glass rounded-2xl p-6 flex items-center gap-5 transition-all duration-200"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"w-1 self-stretch rounded-full bg-gradient-to-b from-accent to-accent/20 flex-shrink-0"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex-1 min-w-0"[39m
+      [36m>[39m
+        [36m<h3[39m
+          [33mclass[39m=[32m"text-text-primary font-semibold text-sm leading-snug mb-1"[39m
+        [36m>[39m
+          [0mBuy books[0m
+        [36m</h3>[39m
+        [36m<p[39m
+          [33mclass[39m=[32m"text-text-muted text-xs leading-relaxed line-clamp-2"[39m
+        [36m>[39m
+          [0mBuy books for school[0m
+        [36m</p>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5 mt-3"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mclass[39m=[32m"text-text-muted"[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"10"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"10"[39m
+          [36m>[39m
+            [36m<circle[39m
+              [33mcx[39m=[32m"12"[39m
+              [33mcy[39m=[32m"12"[39m
+              [33mr[39m=[32m"10"[39m
+            [36m/>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"12 6 12 12 16 14"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"text-text-muted text-[11px] font-medium"[39m
+          [36m>[39m
+            [0mJust now[0m
+          [36m</span>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<button[39m
+        [33mclass[39m=[32m"btn-complete opacity-60 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"[39m
+        [33mtitle[39m=[32m"Mark as complete"[39m
+      [36m>[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"12"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-linejoin[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2.5"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"12"[39m
+          [36m>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"20 6 9 17 4 12"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [0mDone[0m
+        [36m</span>[39m
+      [36m</button>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+ ├ù src/components/TaskCard/TaskCard.test.tsx > TaskCard > should render Done button 179ms
+   ΓåÆ Found multiple elements with the role "button" and name `/done/i`
+
+Here are the matching elements:
+
+Ignored nodes: comments, script, style
+[36m<button[39m
+  [33mclass[39m=[32m"btn-complete opacity-60 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"[39m
+  [33mtitle[39m=[32m"Mark as complete"[39m
+[36m>[39m
+  [36m<span[39m
+    [33mclass[39m=[32m"flex items-center gap-1.5"[39m
+  [36m>[39m
+    [36m<svg[39m
+      [33mfill[39m=[32m"none"[39m
+      [33mheight[39m=[32m"12"[39m
+      [33mstroke[39m=[32m"currentColor"[39m
+      [33mstroke-linecap[39m=[32m"round"[39m
+      [33mstroke-linejoin[39m=[32m"round"[39m
+      [33mstroke-width[39m=[32m"2.5"[39m
+      [33mviewBox[39m=[32m"0 0 24 24"[39m
+      [33mwidth[39m=[32m"12"[39m
+    [36m>[39m
+      [36m<polyline[39m
+        [33mpoints[39m=[32m"20 6 9 17 4 12"[39m
+      [36m/>[39m
+    [36m</svg>[39m
+    [0mDone[0m
+  [36m</span>[39m
+[36m</button>[39m
+
+Ignored nodes: comments, script, style
+[36m<button[39m
+  [33mclass[39m=[32m"btn-complete opacity-60 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"[39m
+  [33mtitle[39m=[32m"Mark as complete"[39m
+[36m>[39m
+  [36m<span[39m
+    [33mclass[39m=[32m"flex items-center gap-1.5"[39m
+  [36m>[39m
+    [36m<svg[39m
+      [33mfill[39m=[32m"none"[39m
+      [33mheight[39m=[32m"12"[39m
+      [33mstroke[39m=[32m"currentColor"[39m
+      [33mstroke-linecap[39m=[32m"round"[39m
+      [33mstroke-linejoin[39m=[32m"round"[39m
+      [33mstroke-width[39m=[32m"2.5"[39m
+      [33mviewBox[39m=[32m"0 0 24 24"[39m
+      [33mwidth[39m=[32m"12"[39m
+    [36m>[39m
+      [36m<polyline[39m
+        [33mpoints[39m=[32m"20 6 9 17 4 12"[39m
+      [36m/>[39m
+    [36m</svg>[39m
+    [0mDone[0m
+  [36m</span>[39m
+[36m</button>[39m
+
+Ignored nodes: comments, script, style
+[36m<button[39m
+  [33mclass[39m=[32m"btn-complete opacity-60 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"[39m
+  [33mtitle[39m=[32m"Mark as complete"[39m
+[36m>[39m
+  [36m<span[39m
+    [33mclass[39m=[32m"flex items-center gap-1.5"[39m
+  [36m>[39m
+    [36m<svg[39m
+      [33mfill[39m=[32m"none"[39m
+      [33mheight[39m=[32m"12"[39m
+      [33mstroke[39m=[32m"currentColor"[39m
+      [33mstroke-linecap[39m=[32m"round"[39m
+      [33mstroke-linejoin[39m=[32m"round"[39m
+      [33mstroke-width[39m=[32m"2.5"[39m
+      [33mviewBox[39m=[32m"0 0 24 24"[39m
+      [33mwidth[39m=[32m"12"[39m
+    [36m>[39m
+      [36m<polyline[39m
+        [33mpoints[39m=[32m"20 6 9 17 4 12"[39m
+      [36m/>[39m
+    [36m</svg>[39m
+    [0mDone[0m
+  [36m</span>[39m
+[36m</button>[39m
+
+(If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"group glass rounded-2xl p-6 flex items-center gap-5 transition-all duration-200"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"w-1 self-stretch rounded-full bg-gradient-to-b from-accent to-accent/20 flex-shrink-0"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex-1 min-w-0"[39m
+      [36m>[39m
+        [36m<h3[39m
+          [33mclass[39m=[32m"text-text-primary font-semibold text-sm leading-snug mb-1"[39m
+        [36m>[39m
+          [0mBuy books[0m
+        [36m</h3>[39m
+        [36m<p[39m
+          [33mclass[39m=[32m"text-text-muted text-xs leading-relaxed line-clamp-2"[39m
+        [36m>[39m
+          [0mBuy books for school[0m
+        [36m</p>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5 mt-3"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mclass[39m=[32m"text-text-muted"[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"10"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"10"[39m
+          [36m>[39m
+            [36m<circle[39m
+              [33mcx[39m=[32m"12"[39m
+              [33mcy[39m=[32m"12"[39m
+              [33mr[39m=[32m"10"[39m
+            [36m/>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"12 6 12 12 16 14"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"text-text-muted text-[11px] font-medium"[39m
+          [36m>[39m
+            [0mJust now[0m
+          [36m</span>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<button[39m
+        [33mclass[39m=[32m"btn-complete opacity-60 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"[39m
+        [33mtitle[39m=[32m"Mark as complete"[39m
+      [36m>[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"12"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-linejoin[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2.5"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"12"[39m
+          [36m>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"20 6 9 17 4 12"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [0mDone[0m
+        [36m</span>[39m
+      [36m</button>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"group glass rounded-2xl p-6 flex items-center gap-5 transition-all duration-200"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"w-1 self-stretch rounded-full bg-gradient-to-b from-accent to-accent/20 flex-shrink-0"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex-1 min-w-0"[39m
+      [36m>[39m
+        [36m<h3[39m
+          [33mclass[39m=[32m"text-text-primary font-semibold text-sm leading-snug mb-1"[39m
+        [36m>[39m
+          [0mBuy books[0m
+        [36m</h3>[39m
+        [36m<p[39m
+          [33mclass[39m=[32m"text-text-muted text-xs leading-relaxed line-clamp-2"[39m
+        [36m>[39m
+          [0mBuy books for school[0m
+        [36m</p>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5 mt-3"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mclass[39m=[32m"text-text-muted"[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"10"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"10"[39m
+          [36m>[39m
+            [36m<circle[39m
+              [33mcx[39m=[32m"12"[39m
+              [33mcy[39m=[32m"12"[39m
+              [33mr[39m=[32m"10"[39m
+            [36m/>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"12 6 12 12 16 14"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"text-text-muted text-[11px] font-medium"[39m
+          [36m>[39m
+            [0mJust now[0m
+          [36m</span>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<button[39m
+        [33mclass[39m=[32m"btn-complete opacity-60 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"[39m
+        [33mtitle[39m=[32m"Mark as complete"[39m
+      [36m>[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"12"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-linejoin[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2.5"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"12"[39m
+          [36m>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"20 6 9 17 4 12"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [0mDone[0m
+        [36m</span>[39m
+      [36m</button>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"group glass rounded-2xl p-6 flex items-center gap-5 transition-all duration-200"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"w-1 self-stretch rounded-full bg-gradient-to-b from-accent to-accent/20 flex-shrink-0"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex-1 min-w-0"[39m
+      [36m>[39m
+        [36m<h3[39m
+          [33mclass[39m=[32m"text-text-primary font-semibold text-sm leading-snug mb-1"[39m
+        [36m>[39m
+          [0mBuy books[0m
+        [36m</h3>[39m
+        [36m<p[39m
+          [33mclass[39m=[32m"text-text-muted text-xs leading-relaxed line-clamp-2"[39m
+        [36m>[39m
+          [0mBuy books for school[0m
+        [36m</p>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5 mt-3"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mclass[39m=[32m"text-text-muted"[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"10"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"10"[39m
+          [36m>[39m
+            [36m<circle[39m
+              [33mcx[39m=[32m"12"[39m
+              [33mcy[39m=[32m"12"[39m
+              [33mr[39m=[32m"10"[39m
+            [36m/>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"12 6 12 12 16 14"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"text-text-muted text-[11px] font-medium"[39m
+          [36m>[39m
+            [0mJust now[0m
+          [36m</span>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<button[39m
+        [33mclass[39m=[32m"btn-complete opacity-60 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"[39m
+        [33mtitle[39m=[32m"Mark as complete"[39m
+      [36m>[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"12"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-linejoin[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2.5"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"12"[39m
+          [36m>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"20 6 9 17 4 12"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [0mDone[0m
+        [36m</span>[39m
+      [36m</button>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+ ├ù src/components/TaskCard/TaskCard.test.tsx > TaskCard > should render time ago when createdAt is provided 8ms
+   ΓåÆ Found multiple elements with the text: /just now/i
+
+Here are the matching elements:
+
+Ignored nodes: comments, script, style
+[36m<span[39m
+  [33mclass[39m=[32m"text-text-muted text-[11px] font-medium"[39m
+[36m>[39m
+  [0mJust now[0m
+[36m</span>[39m
+
+Ignored nodes: comments, script, style
+[36m<span[39m
+  [33mclass[39m=[32m"text-text-muted text-[11px] font-medium"[39m
+[36m>[39m
+  [0mJust now[0m
+[36m</span>[39m
+
+Ignored nodes: comments, script, style
+[36m<span[39m
+  [33mclass[39m=[32m"text-text-muted text-[11px] font-medium"[39m
+[36m>[39m
+  [0mJust now[0m
+[36m</span>[39m
+
+Ignored nodes: comments, script, style
+[36m<span[39m
+  [33mclass[39m=[32m"text-text-muted text-[11px] font-medium"[39m
+[36m>[39m
+  [0mJust now[0m
+[36m</span>[39m
+
+(If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"group glass rounded-2xl p-6 flex items-center gap-5 transition-all duration-200"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"w-1 self-stretch rounded-full bg-gradient-to-b from-accent to-accent/20 flex-shrink-0"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex-1 min-w-0"[39m
+      [36m>[39m
+        [36m<h3[39m
+          [33mclass[39m=[32m"text-text-primary font-semibold text-sm leading-snug mb-1"[39m
+        [36m>[39m
+          [0mBuy books[0m
+        [36m</h3>[39m
+        [36m<p[39m
+          [33mclass[39m=[32m"text-text-muted text-xs leading-relaxed line-clamp-2"[39m
+        [36m>[39m
+          [0mBuy books for school[0m
+        [36m</p>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5 mt-3"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mclass[39m=[32m"text-text-muted"[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"10"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"10"[39m
+          [36m>[39m
+            [36m<circle[39m
+              [33mcx[39m=[32m"12"[39m
+              [33mcy[39m=[32m"12"[39m
+              [33mr[39m=[32m"10"[39m
+            [36m/>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"12 6 12 12 16 14"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"text-text-muted text-[11px] font-medium"[39m
+          [36m>[39m
+            [0mJust now[0m
+          [36m</span>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<button[39m
+        [33mclass[39m=[32m"btn-complete opacity-60 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"[39m
+        [33mtitle[39m=[32m"Mark as complete"[39m
+      [36m>[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"12"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-linejoin[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2.5"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"12"[39m
+          [36m>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"20 6 9 17 4 12"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [0mDone[0m
+        [36m</span>[39m
+      [36m</button>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"group glass rounded-2xl p-6 flex items-center gap-5 transition-all duration-200"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"w-1 self-stretch rounded-full bg-gradient-to-b from-accent to-accent/20 flex-shrink-0"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex-1 min-w-0"[39m
+      [36m>[39m
+        [36m<h3[39m
+          [33mclass[39m=[32m"text-text-primary font-semibold text-sm leading-snug mb-1"[39m
+        [36m>[39m
+          [0mBuy books[0m
+        [36m</h3>[39m
+        [36m<p[39m
+          [33mclass[39m=[32m"text-text-muted text-xs leading-relaxed line-clamp-2"[39m
+        [36m>[39m
+          [0mBuy books for school[0m
+        [36m</p>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5 mt-3"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mclass[39m=[32m"text-text-muted"[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"10"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"10"[39m
+          [36m>[39m
+            [36m<circle[39m
+              [33mcx[39m=[32m"12"[39m
+              [33mcy[39m=[32m"12"[39m
+              [33mr[39m=[32m"10"[39m
+            [36m/>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"12 6 12 12 16 14"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"text-text-muted text-[11px] font-medium"[39m
+          [36m>[39m
+            [0mJust now[0m
+          [36m</span>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<button[39m
+        [33mclass[39m=[32m"btn-complete opacity-60 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"[39m
+        [33mtitle[39m=[32m"Mark as complete"[39m
+      [36m>[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"12"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-linejoin[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2.5"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"12"[39m
+          [36m>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"20 6 9 17 4 12"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [0mDone[0m
+        [36m</span>[39m
+      [36m</button>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"group glass rounded-2xl p-6 flex items-center gap-5 transition-all duration-200"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"w-1 self-stretch rounded-full bg-gradient-to-b from-accent to-accent/20 flex-shrink-0"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex-1 min-w-0"[39m
+      [36m>[39m
+        [36m<h3[39m
+          [33mclass[39m=[32m"text-text-primary font-semibold text-sm leading-snug mb-1"[39m
+        [36m>[39m
+          [0mBuy books[0m
+        [36m</h3>[39m
+        [36m<p[39m
+          [33mclass[39m=[32m"text-text-muted text-xs leading-relaxed line-clamp-2"[39m
+        [36m>[39m
+          [0mBuy books for school[0m
+        [36m</p>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5 mt-3"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mclass[39m=[32m"text-text-muted"[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"10"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"10"[39m
+          [36m>[39m
+            [36m<circle[39m
+              [33mcx[39m=[32m"12"[39m
+              [33mcy[39m=[32m"12"[39m
+              [33mr[39m=[32m"10"[39m
+            [36m/>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"12 6 12 12 16 14"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"text-text-muted text-[11px] font-medium"[39m
+          [36m>[39m
+            [0mJust now[0m
+          [36m</span>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<button[39m
+        [33mclass[39m=[32m"btn-complete opacity-60 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"[39m
+        [33mtitle[39m=[32m"Mark as complete"[39m
+      [36m>[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"12"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-linejoin[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2.5"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"12"[39m
+          [36m>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"20 6 9 17 4 12"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [0mDone[0m
+        [36m</span>[39m
+      [36m</button>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"group glass rounded-2xl p-6 flex items-center gap-5 transition-all duration-200"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"w-1 self-stretch rounded-full bg-gradient-to-b from-accent to-accent/20 flex-shrink-0"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex-1 min-w-0"[39m
+      [36m>[39m
+        [36m<h3[39m
+          [33mclass[39m=[32m"text-text-primary font-semibold text-sm leading-snug mb-1"[39m
+        [36m>[39m
+          [0mBuy books[0m
+        [36m</h3>[39m
+        [36m<p[39m
+          [33mclass[39m=[32m"text-text-muted text-xs leading-relaxed line-clamp-2"[39m
+        [36m>[39m
+          [0mBuy books for school[0m
+        [36m</p>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5 mt-3"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mclass[39m=[32m"text-text-muted"[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"10"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"10"[39m
+          [36m>[39m
+            [36m<circle[39m
+              [33mcx[39m=[32m"12"[39m
+              [33mcy[39m=[32m"12"[39m
+              [33mr[39m=[32m"10"[39m
+            [36m/>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"12 6 12 12 16 14"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"text-text-muted text-[11px] font-medium"[39m
+          [36m>[39m
+            [0mJust now[0m
+          [36m</span>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<button[39m
+        [33mclass[39m=[32m"btn-complete opacity-60 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"[39m
+        [33mtitle[39m=[32m"Mark as complete"[39m
+      [36m>[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"12"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-linejoin[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2.5"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"12"[39m
+          [36m>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"20 6 9 17 4 12"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [0mDone[0m
+        [36m</span>[39m
+      [36m</button>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+ ├ù src/components/TaskCard/TaskCard.test.tsx > TaskCard > should not render time when createdAt is empty 5ms
+   ΓåÆ Invalid Chai property: toBeInTheDocument
+ ├ù src/components/TaskCard/TaskCard.test.tsx > TaskCard > should call onComplete with task id when Done is clicked 71ms
+   ΓåÆ Found multiple elements with the role "button" and name `/done/i`
+
+Here are the matching elements:
+
+Ignored nodes: comments, script, style
+[36m<button[39m
+  [33mclass[39m=[32m"btn-complete opacity-60 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"[39m
+  [33mtitle[39m=[32m"Mark as complete"[39m
+[36m>[39m
+  [36m<span[39m
+    [33mclass[39m=[32m"flex items-center gap-1.5"[39m
+  [36m>[39m
+    [36m<svg[39m
+      [33mfill[39m=[32m"none"[39m
+      [33mheight[39m=[32m"12"[39m
+      [33mstroke[39m=[32m"currentColor"[39m
+      [33mstroke-linecap[39m=[32m"round"[39m
+      [33mstroke-linejoin[39m=[32m"round"[39m
+      [33mstroke-width[39m=[32m"2.5"[39m
+      [33mviewBox[39m=[32m"0 0 24 24"[39m
+      [33mwidth[39m=[32m"12"[39m
+    [36m>[39m
+      [36m<polyline[39m
+        [33mpoints[39m=[32m"20 6 9 17 4 12"[39m
+      [36m/>[39m
+    [36m</svg>[39m
+    [0mDone[0m
+  [36m</span>[39m
+[36m</button>[39m
+
+Ignored nodes: comments, script, style
+[36m<button[39m
+  [33mclass[39m=[32m"btn-complete opacity-60 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"[39m
+  [33mtitle[39m=[32m"Mark as complete"[39m
+[36m>[39m
+  [36m<span[39m
+    [33mclass[39m=[32m"flex items-center gap-1.5"[39m
+  [36m>[39m
+    [36m<svg[39m
+      [33mfill[39m=[32m"none"[39m
+      [33mheight[39m=[32m"12"[39m
+      [33mstroke[39m=[32m"currentColor"[39m
+      [33mstroke-linecap[39m=[32m"round"[39m
+      [33mstroke-linejoin[39m=[32m"round"[39m
+      [33mstroke-width[39m=[32m"2.5"[39m
+      [33mviewBox[39m=[32m"0 0 24 24"[39m
+      [33mwidth[39m=[32m"12"[39m
+    [36m>[39m
+      [36m<polyline[39m
+        [33mpoints[39m=[32m"20 6 9 17 4 12"[39m
+      [36m/>[39m
+    [36m</svg>[39m
+    [0mDone[0m
+  [36m</span>[39m
+[36m</button>[39m
+
+Ignored nodes: comments, script, style
+[36m<button[39m
+  [33mclass[39m=[32m"btn-complete opacity-60 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"[39m
+  [33mtitle[39m=[32m"Mark as complete"[39m
+[36m>[39m
+  [36m<span[39m
+    [33mclass[39m=[32m"flex items-center gap-1.5"[39m
+  [36m>[39m
+    [36m<svg[39m
+      [33mfill[39m=[32m"none"[39m
+      [33mheight[39m=[32m"12"[39m
+      [33mstroke[39m=[32m"currentColor"[39m
+      [33mstroke-linecap[39m=[32m"round"[39m
+      [33mstroke-linejoin[39m=[32m"round"[39m
+      [33mstroke-width[39m=[32m"2.5"[39m
+      [33mviewBox[39m=[32m"0 0 24 24"[39m
+      [33mwidth[39m=[32m"12"[39m
+    [36m>[39m
+      [36m<polyline[39m
+        [33mpoints[39m=[32m"20 6 9 17 4 12"[39m
+      [36m/>[39m
+    [36m</svg>[39m
+    [0mDone[0m
+  [36m</span>[39m
+[36m</button>[39m
+
+Ignored nodes: comments, script, style
+[36m<button[39m
+  [33mclass[39m=[32m"btn-complete opacity-60 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"[39m
+  [33mtitle[39m=[32m"Mark as complete"[39m
+[36m>[39m
+  [36m<span[39m
+    [33mclass[39m=[32m"flex items-center gap-1.5"[39m
+  [36m>[39m
+    [36m<svg[39m
+      [33mfill[39m=[32m"none"[39m
+      [33mheight[39m=[32m"12"[39m
+      [33mstroke[39m=[32m"currentColor"[39m
+      [33mstroke-linecap[39m=[32m"round"[39m
+      [33mstroke-linejoin[39m=[32m"round"[39m
+      [33mstroke-width[39m=[32m"2.5"[39m
+      [33mviewBox[39m=[32m"0 0 24 24"[39m
+      [33mwidth[39m=[32m"12"[39m
+    [36m>[39m
+      [36m<polyline[39m
+        [33mpoints[39m=[32m"20 6 9 17 4 12"[39m
+      [36m/>[39m
+    [36m</svg>[39m
+    [0mDone[0m
+  [36m</span>[39m
+[36m</button>[39m
+
+Ignored nodes: comments, script, style
+[36m<button[39m
+  [33mclass[39m=[32m"btn-complete opacity-60 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"[39m
+  [33mtitle[39m=[32m"Mark as complete"[39m
+[36m>[39m
+  [36m<span[39m
+    [33mclass[39m=[32m"flex items-center gap-1.5"[39m
+  [36m>[39m
+    [36m<svg[39m
+      [33mfill[39m=[32m"none"[39m
+      [33mheight[39m=[32m"12"[39m
+      [33mstroke[39m=[32m"currentColor"[39m
+      [33mstroke-linecap[39m=[32m"round"[39m
+      [33mstroke-linejoin[39m=[32m"round"[39m
+      [33mstroke-width[39m=[32m"2.5"[39m
+      [33mviewBox[39m=[32m"0 0 24 24"[39m
+      [33mwidth[39m=[32m"12"[39m
+    [36m>[39m
+      [36m<polyline[39m
+        [33mpoints[39m=[32m"20 6 9 17 4 12"[39m
+      [36m/>[39m
+    [36m</svg>[39m
+    [0mDone[0m
+  [36m</span>[39m
+[36m</button>[39m
+
+Ignored nodes: comments, script, style
+[36m<button[39m
+  [33mclass[39m=[32m"btn-complete opacity-60 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"[39m
+  [33mtitle[39m=[32m"Mark as complete"[39m
+[36m>[39m
+  [36m<span[39m
+    [33mclass[39m=[32m"flex items-center gap-1.5"[39m
+  [36m>[39m
+    [36m<svg[39m
+      [33mfill[39m=[32m"none"[39m
+      [33mheight[39m=[32m"12"[39m
+      [33mstroke[39m=[32m"currentColor"[39m
+      [33mstroke-linecap[39m=[32m"round"[39m
+      [33mstroke-linejoin[39m=[32m"round"[39m
+      [33mstroke-width[39m=[32m"2.5"[39m
+      [33mviewBox[39m=[32m"0 0 24 24"[39m
+      [33mwidth[39m=[32m"12"[39m
+    [36m>[39m
+      [36m<polyline[39m
+        [33mpoints[39m=[32m"20 6 9 17 4 12"[39m
+      [36m/>[39m
+    [36m</svg>[39m
+    [0mDone[0m
+  [36m</span>[39m
+[36m</button>[39m
+
+(If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"group glass rounded-2xl p-6 flex items-center gap-5 transition-all duration-200"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"w-1 self-stretch rounded-full bg-gradient-to-b from-accent to-accent/20 flex-shrink-0"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex-1 min-w-0"[39m
+      [36m>[39m
+        [36m<h3[39m
+          [33mclass[39m=[32m"text-text-primary font-semibold text-sm leading-snug mb-1"[39m
+        [36m>[39m
+          [0mBuy books[0m
+        [36m</h3>[39m
+        [36m<p[39m
+          [33mclass[39m=[32m"text-text-muted text-xs leading-relaxed line-clamp-2"[39m
+        [36m>[39m
+          [0mBuy books for school[0m
+        [36m</p>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5 mt-3"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mclass[39m=[32m"text-text-muted"[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"10"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"10"[39m
+          [36m>[39m
+            [36m<circle[39m
+              [33mcx[39m=[32m"12"[39m
+              [33mcy[39m=[32m"12"[39m
+              [33mr[39m=[32m"10"[39m
+            [36m/>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"12 6 12 12 16 14"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"text-text-muted text-[11px] font-medium"[39m
+          [36m>[39m
+            [0mJust now[0m
+          [36m</span>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<button[39m
+        [33mclass[39m=[32m"btn-complete opacity-60 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"[39m
+        [33mtitle[39m=[32m"Mark as complete"[39m
+      [36m>[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"12"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-linejoin[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2.5"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"12"[39m
+          [36m>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"20 6 9 17 4 12"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [0mDone[0m
+        [36m</span>[39m
+      [36m</button>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"group glass rounded-2xl p-6 flex items-center gap-5 transition-all duration-200"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"w-1 self-stretch rounded-full bg-gradient-to-b from-accent to-accent/20 flex-shrink-0"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex-1 min-w-0"[39m
+      [36m>[39m
+        [36m<h3[39m
+          [33mclass[39m=[32m"text-text-primary font-semibold text-sm leading-snug mb-1"[39m
+        [36m>[39m
+          [0mBuy books[0m
+        [36m</h3>[39m
+        [36m<p[39m
+          [33mclass[39m=[32m"text-text-muted text-xs leading-relaxed line-clamp-2"[39m
+        [36m>[39m
+          [0mBuy books for school[0m
+        [36m</p>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5 mt-3"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mclass[39m=[32m"text-text-muted"[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"10"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"10"[39m
+          [36m>[39m
+            [36m<circle[39m
+              [33mcx[39m=[32m"12"[39m
+              [33mcy[39m=[32m"12"[39m
+              [33mr[39m=[32m"10"[39m
+            [36m/>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"12 6 12 12 16 14"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"text-text-muted text-[11px] font-medium"[39m
+          [36m>[39m
+            [0mJust now[0m
+          [36m</span>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<button[39m
+        [33mclass[39m=[32m"btn-complete opacity-60 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"[39m
+        [33mtitle[39m=[32m"Mark as complete"[39m
+      [36m>[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"12"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-linejoin[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2.5"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"12"[39m
+          [36m>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"20 6 9 17 4 12"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [0mDone[0m
+        [36m</span>[39m
+      [36m</button>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"group glass rounded-2xl p-6 flex items-center gap-5 transition-all duration-200"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"w-1 self-stretch rounded-full bg-gradient-to-b from-accent to-accent/20 flex-shrink-0"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex-1 min-w-0"[39m
+      [36m>[39m
+        [36m<h3[39m
+          [33mclass[39m=[32m"text-text-primary font-semibold text-sm leading-snug mb-1"[39m
+        [36m>[39m
+          [0mBuy books[0m
+        [36m</h3>[39m
+        [36m<p[39m
+          [33mclass[39m=[32m"text-text-muted text-xs leading-relaxed line-clamp-2"[39m
+        [36m>[39m
+          [0mBuy books for school[0m
+        [36m</p>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5 mt-3"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mclass[39m=[32m"text-text-muted"[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"10"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"10"[39m
+          [36m>[39m
+            [36m<circle[39m
+              [33mcx[39m=[32m"12"[39m
+              [33mcy[39m=[32m"12"[39m
+              [33mr[39m=[32m"10"[39m
+            [36m/>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"12 6 12 12 16 14"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"text-text-muted text-[11px] font-medium"[39m
+          [36m>[39m
+            [0mJust now[0m
+          [36m</span>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<button[39m
+        [33mclass[39m=[32m"btn-complete opacity-60 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"[39m
+        [33mtitle[39m=[32m"Mark as complete"[39m
+      [36m>[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"12"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-linejoin[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2.5"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"12"[39m
+          [36m>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"20 6 9 17 4 12"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [0mDone[0m
+        [36m</span>[39m
+      [36m</button>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"group glass rounded-2xl p-6 flex items-center gap-5 transition-all duration-200"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"w-1 self-stretch rounded-full bg-gradient-to-b from-accent to-accent/20 flex-shrink-0"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex-1 min-w-0"[39m
+      [36m>[39m
+        [36m<h3[39m
+          [33mclass[39m=[32m"text-text-primary font-semibold text-sm leading-snug mb-1"[39m
+        [36m>[39m
+          [0mBuy books[0m
+        [36m</h3>[39m
+        [36m<p[39m
+          [33mclass[39m=[32m"text-text-muted text-xs leading-relaxed line-clamp-2"[39m
+        [36m>[39m
+          [0mBuy books for school[0m
+        [36m</p>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5 mt-3"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mclass[39m=[32m"text-text-muted"[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"10"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"10"[39m
+          [36m>[39m
+            [36m<circle[39m
+              [33mcx[39m=[32m"12"[39m
+              [33mcy[39m=[32m"12"[39m
+              [33mr[39m=[32m"10"[39m
+            [36m/>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"12 6 12 12 16 14"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"text-text-muted text-[11px] font-medium"[39m
+          [36m>[39m
+            [0mJust now[0m
+          [36m</span>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<button[39m
+        [33mclass[39m=[32m"btn-complete opacity-60 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"[39m
+        [33mtitle[39m=[32m"Mark as complete"[39m
+      [36m>[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"12"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-linejoin[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2.5"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"12"[39m
+          [36m>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"20 6 9 17 4 12"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [0mDone[0m
+        [36m</span>[39m
+      [36m</button>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"group glass rounded-2xl p-6 flex items-center gap-5 transition-all duration-200"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"w-1 self-stretch rounded-full bg-gradient-to-b from-accent to-accent/20 flex-shrink-0"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex-1 min-w-0"[39m
+      [36m>[39m
+        [36m<h3[39m
+          [33mclass[39m=[32m"text-text-primary font-semibold text-sm leading-snug mb-1"[39m
+        [36m>[39m
+          [0mBuy books[0m
+        [36m</h3>[39m
+        [36m<p[39m
+          [33mclass[39m=[32m"text-text-muted text-xs leading-relaxed line-clamp-2"[39m
+        [36m>[39m
+          [0mBuy books for school[0m
+        [36m</p>[39m
+      [36m</div>[39m
+      [36m<button[39m
+        [33mclass[39m=[32m"btn-complete opacity-60 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"[39m
+        [33mtitle[39m=[32m"Mark as complete"[39m
+      [36m>[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"12"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-linejoin[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2.5"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"12"[39m
+          [36m>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"20 6 9 17 4 12"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [0mDone[0m
+        [36m</span>[39m
+      [36m</button>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"group glass rounded-2xl p-6 flex items-center gap-5 transition-all duration-200"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"w-1 self-stretch rounded-full bg-gradient-to-b from-accent to-accent/20 flex-shrink-0"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex-1 min-w-0"[39m
+      [36m>[39m
+        [36m<h3[39m
+          [33mclass[39m=[32m"text-text-primary font-semibold text-sm leading-snug mb-1"[39m
+        [36m>[39m
+          [0mBuy books[0m
+        [36m</h3>[39m
+        [36m<p[39m
+          [33mclass[39m=[32m"text-text-muted text-xs leading-relaxed line-clamp-2"[39m
+        [36m>[39m
+          [0mBuy books for school[0m
+        [36m</p>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5 mt-3"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mclass[39m=[32m"text-text-muted"[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"10"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"10"[39m
+          [36m>[39m
+            [36m<circle[39m
+              [33mcx[39m=[32m"12"[39m
+              [33mcy[39m=[32m"12"[39m
+              [33mr[39m=[32m"10"[39m
+            [36m/>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"12 6 12 12 16 14"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"text-text-muted text-[11px] font-medium"[39m
+          [36m>[39m
+            [0mJust now[0m
+          [36m</span>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<button[39m
+        [33mclass[39m=[32m"btn-complete opacity-60 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"[39m
+        [33mtitle[39m=[32m"Mark as complete"[39m
+      [36m>[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"flex items-center gap-1.5"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"12"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-linejoin[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2.5"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"12"[39m
+          [36m>[39m
+            [36m<polyline[39m
+              [33mpoints[39m=[32m"20 6 9 17 4 12"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [0mDone[0m
+        [36m</span>[39m
+      [36m</button>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+
+ Test Files  1 failed (1)
+      Tests  6 failed (6)
+   Start at  16:17:28
+   Duration  2.00s (transform 62ms, setup 0ms, import 269ms, tests 320ms, environment 1.15s)
+
