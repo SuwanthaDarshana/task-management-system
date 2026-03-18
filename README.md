@@ -61,7 +61,30 @@ git clone https://github.com/your-username/task-management-system.git
 cd task-management-system
 ```
 
-### 2. Build and Run
+### 2. Configure Environment Variables
+
+Copy the example env file and update the values:
+
+```bash
+cp .env.example .env
+```
+
+Open `.env` and set your values:
+
+```env
+# Database
+MYSQL_ROOT_PASSWORD=your_password_here
+MYSQL_DATABASE=task_db
+DB_USERNAME=your_username_here
+DB_PASSWORD=your_password_here
+
+# Frontend
+VITE_API_URL=http://localhost:8080/api/v1/tasks
+```
+
+> The default values in `.env.example` work out of the box for local development.
+
+### 3. Build and Run
 
 ```bash
 docker compose up --build
@@ -75,7 +98,7 @@ This will:
 
 > First build takes ~3-5 minutes. Subsequent builds are much faster due to Docker layer caching.
 
-### 3. Access the Application
+### 4. Access the Application
 
 | Service | URL |
 |---|---|
@@ -84,7 +107,7 @@ This will:
 | Swagger UI | http://localhost:8080/swagger-ui.html |
 | API Docs | http://localhost:8080/api-docs |
 
-### 4. Stop the Application
+### 5. Stop the Application
 
 ```bash
 # Stop all containers
@@ -110,7 +133,7 @@ All endpoints return a standard response:
 
 ```json
 {
-  "data": { },
+  "data": {},
   "message": "Task Created Successfully",
   "statusCode": 201
 }
@@ -154,8 +177,10 @@ task-management-system/
 │   ├── Dockerfile
 │   └── .dockerignore
 │
-├── docker-compose.yml
+├── .env.example                    ← Environment template ✅ committed
+├── .env                            ← Real values ❌ gitignored
 ├── .gitignore
+├── docker-compose.yml
 └── README.md
 ```
 
@@ -212,7 +237,7 @@ Backend coverage: **91%+** (Jacoco)
 
 ## Database Schema
 
-The schema is automatically created by Spring Boot on first run.
+The schema is automatically created by Spring Boot on first run using Hibernate DDL auto.
 
 ### `task` Table
 
@@ -226,6 +251,22 @@ The schema is automatically created by Spring Boot on first run.
 
 ---
 
+## Environment Variables
+
+Copy `.env.example` to `.env` and update with your values.
+
+| Variable | Description | Default |
+|---|---|---|
+| `MYSQL_ROOT_PASSWORD` | MySQL root password | `your_password` |
+| `MYSQL_DATABASE` | MySQL database name | `task_db` |
+| `DB_USERNAME` | Database username for backend | `your_username` |
+| `DB_PASSWORD` | Database password for backend | `your_password` |
+| `VITE_API_URL` | Frontend API base URL (local dev only) | `http://localhost:8080/api/v1/tasks` |
+
+> In Docker, the frontend uses nginx to proxy `/api/` requests to the backend directly — `VITE_API_URL` is only needed for local development outside Docker.
+
+---
+
 ## Design Decisions
 
 - **StandardResponseDTO\<T\>** — Generic wrapper ensures all API responses have a consistent structure with `data`, `message`, and `statusCode`
@@ -234,16 +275,4 @@ The schema is automatically created by Spring Boot on first run.
 - **Multi-stage Docker builds** — Keeps final images lean by separating build and runtime stages
 - **Interface + Impl pattern** — `TaskService` interface with `TaskServiceImpl` follows SOLID principles
 - **GlobalExceptionHandler** — Centralized error handling with consistent error response format
-
----
-
-## Environment Variables
-
-The following environment variables are configured in `docker-compose.yml`:
-
-| Variable | Description | Default |
-|---|---|---|
-| `SPRING_DATASOURCE_URL` | MySQL connection URL | `jdbc:mysql://db:3306/task_db` |
-| `DB_USERNAME` | Database username | `root` |
-| `DB_PASSWORD` | Database password | `root` |
-| `VITE_API_URL` | Frontend API base URL | `/api/v1/tasks` |
+- **Environment variables** — All sensitive credentials are externalized via `.env` file, never hardcoded
