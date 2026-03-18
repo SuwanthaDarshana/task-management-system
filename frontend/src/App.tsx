@@ -5,8 +5,6 @@ import useTask from "./hooks/useTask";
 function App() {
   const { tasks, loading, submitting, createTask, completeTask } = useTask();
 
-  const taskCount = tasks.length;
-
   return (
     <>
       {/* Animated background layers */}

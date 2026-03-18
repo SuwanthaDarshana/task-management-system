@@ -1,0 +1,58 @@
+services:
+
+  db:
+    image: mysql:8.0
+    container_name: task_db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: task_db
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-proot"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    networks:
+      - task_network
+
+  backend:
+    build:
+      context: ./task-service
+      dockerfile: Dockerfile
+    container_name: task_backend
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/task_db?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
+      DB_USERNAME: root
+      DB_PASSWORD: root
+    ports:
+      - "8080:8080"
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - task_network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        VITE_API_URL: /api/v1/tasks
+    container_name: task_frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - task_network
+
+volumes:
+  mysql_data:
+
+networks:
+  task_network:
+    driver: bridge

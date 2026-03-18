@@ -49,7 +49,7 @@ const useTask = (): UseTaskReturn => {
 
       await taskService.completeTask(id)
       await fetchTasks()                      // re-fetch to get next incomplete task
-      toast.success('Task completed! Great job! 🎉')
+      toast.success('Task completed! Great job')
     } catch {
       // If it fails, re-fetch to restore the correct state
       await fetchTasks()
