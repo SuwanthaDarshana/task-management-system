@@ -4,6 +4,7 @@ import com.mbtech.task_service.entity.Task;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.test.context.ActiveProfiles;
 
 import java.util.List;
@@ -12,7 +13,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @DataJpaTest
 @ActiveProfiles("test")
-public class TaskRepositoryTest {
+class TaskRepositoryTest {
 
     @Autowired
     private TaskRepository taskRepository;
@@ -29,7 +30,7 @@ public class TaskRepositoryTest {
         taskRepository.save(completed);
 
         // Act
-        List<Task> results = taskRepository.findTopfiveRecentIncompleteTasks();
+        List<Task> results = taskRepository.findTopfiveRecentIncompleteTasks(PageRequest.of(0, 5));
 
         // Assert
         assertThat(results).hasSize(1);
@@ -48,7 +49,7 @@ public class TaskRepositoryTest {
         }
 
         // Act
-        List<Task> results = taskRepository.findTopfiveRecentIncompleteTasks();
+        List<Task> results = taskRepository.findTopfiveRecentIncompleteTasks(PageRequest.of(0, 5));
 
         // Assert
         assertThat(results).hasSize(5);
@@ -63,7 +64,7 @@ public class TaskRepositoryTest {
                 .title("Newer Task").description("Desc").completed(false).build());
 
         // Act
-        List<Task> results = taskRepository.findTopfiveRecentIncompleteTasks();
+        List<Task> results = taskRepository.findTopfiveRecentIncompleteTasks(PageRequest.of(0, 5));
 
         // assert — newer task should come first
         assertThat(results.get(0).getTitle()).isEqualTo("Newer Task");
@@ -71,7 +72,7 @@ public class TaskRepositoryTest {
 
     @Test
     void findTopFiveRecentIncompleteTasks_ShouldReturnEmpty_WhenNoTasks() {
-        List<Task> results = taskRepository.findTopfiveRecentIncompleteTasks();
+        List<Task> results = taskRepository.findTopfiveRecentIncompleteTasks(PageRequest.of(0, 5));
         assertThat(results).isEmpty();
     }
 

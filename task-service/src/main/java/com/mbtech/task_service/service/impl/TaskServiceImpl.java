@@ -8,6 +8,7 @@ import com.mbtech.task_service.repository.TaskRepository;
 import com.mbtech.task_service.service.TaskService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -34,7 +35,7 @@ public class TaskServiceImpl implements TaskService {
 
     @Override
     public List<TaskResponseDTO> getRecentTasks() {
-        return taskRepository.findTopfiveRecentIncompleteTasks()
+        return taskRepository.findTopfiveRecentIncompleteTasks(PageRequest.of(0,5))
                 .stream()
                 .map(this::mapToDTO)
                 .toList();

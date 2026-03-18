@@ -12,6 +12,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.test.context.ActiveProfiles;
 
 import java.time.LocalDateTime;
@@ -24,7 +25,7 @@ import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
 @ActiveProfiles("test")
-public class TaskServiceTest {
+class TaskServiceTest {
 
     @Mock
     private TaskRepository taskRepository;
@@ -75,18 +76,18 @@ public class TaskServiceTest {
 
     @Test
     void getRecentTasks_ShouldReturnListOfTasks() {
-        when(taskRepository.findTopfiveRecentIncompleteTasks()).thenReturn(List.of(task));
+        when(taskRepository.findTopfiveRecentIncompleteTasks(PageRequest.of(0, 5))).thenReturn(List.of(task));
 
         List<TaskResponseDTO> results = taskService.getRecentTasks();
 
         assertThat(results).hasSize(1);
         assertThat(results.get(0).getTitle()).isEqualTo("Buy books");
-        verify(taskRepository, times(1)).findTopfiveRecentIncompleteTasks();
+        verify(taskRepository, times(1)).findTopfiveRecentIncompleteTasks(PageRequest.of(0, 5));
     }
 
     @Test
     void getRecentTasks_ShouldReturnEmptyList_WhenNoTasks() {
-        when(taskRepository.findTopfiveRecentIncompleteTasks()).thenReturn(List.of());
+        when(taskRepository.findTopfiveRecentIncompleteTasks(PageRequest.of(0, 5))).thenReturn(List.of());
 
         List<TaskResponseDTO> results = taskService.getRecentTasks();
 
@@ -96,7 +97,7 @@ public class TaskServiceTest {
     @Test
     void getRecentTasks_ShouldReturnMaxFiveTasks() {
         List<Task> fiveTasks = List.of(task, task, task, task, task);
-        when(taskRepository.findTopfiveRecentIncompleteTasks()).thenReturn(fiveTasks);
+        when(taskRepository.findTopfiveRecentIncompleteTasks(PageRequest.of(0, 5))).thenReturn(fiveTasks);
 
         List<TaskResponseDTO> results = taskService.getRecentTasks();
 
